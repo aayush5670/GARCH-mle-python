@@ -110,9 +110,3 @@ print("Optimized Parameters (omega, alpha, beta):", result.x)
 - **Optimization & Modeling:** `scipy.optimize`, `arch`
 - **Data Source:** `yfinance`
 - **Visualization:** `matplotlib`
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
