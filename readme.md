@@ -51,14 +51,14 @@ $$\sigma_{unconditional}^2 = \frac{\omega}{1 - (\alpha + \beta)}$$
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/garch-volatility-engine.git
+   git clone https://github.com/your-aayush5670/garch-volatility-engine.git
    cd garch-volatility-engine
    ```
 
 2. **Create a Virtual Environment:**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   source venv/bin/activate 
    ```
 
 3. **Install Dependencies:**
