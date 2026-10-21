@@ -42,7 +42,9 @@ $$\sigma_{unconditional}^2 = \frac{\omega}{1 - (\alpha + \beta)}$$
 - **Return & Volatility Profiling:** Calculation of log/percentage returns and daily rolling volatility.
 - **Log-Likelihood Optimization:** Minimization of negative log-likelihood via Nelder-Mead / L-BFGS-B algorithms.
 - **Forecast Term Structure:** Analytical multi-step volatility term structure forecasting:
-  $$\hat{\sigma}_{t+k}^2 = \sigma_{unconditional}^2 + (\alpha + \beta)^{k-1} (\sigma_{t+1}^2 - \sigma_{unconditional}^2)$$
+  $$
+  \hat{\sigma}_{t+k}^2 = \sigma_{unconditional}^2 + (\alpha + \beta)^{k-1} (\sigma_{t+1}^2 - \sigma_{unconditional}^2)
+  $$
 - **Comparative Analysis:** Detailed plot comparing custom model predictions with the `arch` package output.
 
 ---
